@@ -1,0 +1,10 @@
+node_modules/
+auth_info/
+bot.log
+*.mp3
+*.mp4
+*.part
+*.jpg
+*.jpeg
+*.png
+.env

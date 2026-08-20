@@ -1,3 +1,6 @@
+const http = require('http');
+const PORT = process.env.PORT || 10000;
+http.createServer((req, res) => { res.writeHead(200); res.end('WhatsApp Bot is running'); }).listen(PORT, '0.0.0.0');
 const {
   default: makeWASocket,
   useMultiFileAuthState,
